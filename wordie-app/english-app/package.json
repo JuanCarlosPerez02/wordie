@@ -5,12 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "npx vite build",
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
-    "git": "^0.1.5",
     "groq-sdk": "^0.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
